@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bivas Khan - Home</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin:0; padding:0; line-height:1.6; }
+    header, nav, main, footer { max-width: 900px; margin:auto; padding:1rem; }
+    nav a { margin-right: 1rem; text-decoration:none; color:#0366d6; font-weight:500; }
+    nav { border-bottom: 1px solid #ddd; padding-bottom:0.5rem; margin-bottom:1rem; }
+    footer { text-align:center; margin-top:2rem; color:#666; font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bivas Khan</h1>
+    <p>Assistant Professor, Department of Mathematical Sciences, IIT (BHU) Varanasi</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>Welcome to my academic homepage. I am currently working in algebraic geometry, tropical geometry, and related areas.</p>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Bivas Khan
+  </footer>
+
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
